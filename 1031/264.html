@@ -1,0 +1,840 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>校務行政系統：依系所查詢課程</title>
+<link type="text/css" href="/ncyucss.css" rel="stylesheet" />
+<meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible" />
+<meta content="text/html; charset=BIG5" http-equiv="Content-Type" />
+<meta content="0" http-equiv="expires" />
+<meta content="no-cache" http-equiv="pragma" />
+<meta content="no-cache" http-equiv="cache-control" />
+
+</head><body background="/inmtextb.gif" onload="DigitalTime2()"><div style="position: absolute; left: 35%; top: 35%; visibility: hidden;" id="waitDiv">
+<center><table cellpadding="6" bordercolor="#000000" border="2" bgcolor="#9999FF">
+<tbody><tr><td align="center"><br /><p><font size="6" face="標楷體">系統處理中...</font></p><p>
+
+<img border="0" src="await.gif" /></p><p><font size="4" face="標楷體">請稍候...</font></p><p>
+</p></td></tr></tbody></table></center></div>
+
+<script language="JavaScript">
+var DHTML = (document.getElementById || document.all || document.layers);
+
+function ap_getObj(name) {
+  if (document.getElementById) {
+    return document.getElementById(name).style;
+  }
+  else if (document.all) {
+    return document.all[name].style;
+  }
+  else if (document.layers) {
+    return document.layers[name];
+  }
+}
+
+function ap_showWaitMessage(div,flag) {
+  if (!DHTML) return;
+  var x = ap_getObj(div);
+  x.visibility = (flag) ? 'visible':'hidden';
+  if(! document.getElementById) if(document.layers) x.left=280/2;
+  return true;
+}
+
+ap_showWaitMessage('waitDiv', 1);
+</script>
+
+
+
+<script language="JavaScript">
+&lt;!--
+ var entered = new Date()
+ function DigitalTime2()
+ {
+  var now = new Date()
+  var s = Math.floor((now.getTime() - entered.getTime()) / 1000)
+  var m = Math.floor(s / 60)
+  var h = Math.floor(s / 3600)
+  var s = s % 60
+  var m = m % 60
+  var h = h % 24
+  var time = ((h &lt; 10) ? "0" : " ") + h
+  time += ((m &lt; 10) ? ":0" : ":") + m
+  time += ((s &lt; 10) ? ":0" : ":") + s
+  LiveClock2.innerHTML = time
+  setTimeout("DigitalTime2()",1000)
+ }
+//--&gt;
+</script>
+
+
+<font id="HtmlHeader">
+
+
+<br /><h1>校務行政系統：依系所查詢課程</h1>
+<hr />現在學年、學期：<font color="green">一百零三學年度第二學期</font>，選課學年、學期：<font color="blue">一百零三學年度第二學期</font><br />
+(進入本網頁時間：民國104年5月16日 星期六 10:16:18，停留時間：<span id="LiveClock2">00:00:02</span>)<hr />
+
+<p></p><ul>
+
+</ul><table width="75%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tbody><tr></tr>
+</tbody></table>
+</font>
+
+<p>
+</p><table width="99%" cellspacing="0" cellpadding="1" border="0" align="center">
+<tbody><tr><td>
+所搜尋到之可能課程（一百零三學年度第二學期）
+
+</td></tr></tbody></table>
+
+<table width="99%" cellspacing="0" cellpadding="1" border="1" align="center">
+<tbody><tr><td bgcolor="BEEC87" align="center">選課類別</td>
+<td bgcolor="BEEC87" align="center">課程類別</td>
+<td bgcolor="BEEC87" align="center">開課系號</td>
+<td bgcolor="BEEC87" align="center">開課序號</td>
+<td bgcolor="BEEC87" align="center">課程名稱</td>
+<td bgcolor="BEEC87" align="center">永久課號</td>
+<td bgcolor="BEEC87" align="center">開課單位</td>
+<td bgcolor="BEEC87" align="center">上課學制</td>
+<td bgcolor="BEEC87" align="center">上課學院</td>
+<td bgcolor="BEEC87" align="center">上課系所</td>
+<td bgcolor="BEEC87" align="center">上課組別</td>
+<td bgcolor="BEEC87" align="center">適用年級</td>
+<td bgcolor="BEEC87" align="center">上課班別</td>
+<td bgcolor="BEEC87" align="center">課程修別</td>
+<td bgcolor="BEEC87" align="center">學分數</td>
+<td bgcolor="BEEC87" align="center">時數</td>
+<td bgcolor="BEEC87" align="center">學期數</td>
+<td bgcolor="BEEC87" align="center">授課類別</td>
+<td bgcolor="BEEC87" align="center">備註</td>
+<td bgcolor="BEEC87" align="center">授課教師</td>
+<td bgcolor="BEEC87" align="center">上課星期</td>
+<td bgcolor="BEEC87" align="center">上課節次</td>
+<td bgcolor="BEEC87" align="center">上課教室</td>
+<td bgcolor="BEEC87" align="center">校區</td>
+<td bgcolor="BEEC87" align="center">限修人數</td>
+<td bgcolor="BEEC87" align="center">選上人數</td>
+<td bgcolor="BEEC87" align="center">限選條件</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">264</td>
+<td bgcolor="ECE987" align="center">0001</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640001&amp;WebPid1=">家庭發展研究</a></td>
+<td bgcolor="ECE987" align="center">26400071</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">碩士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">家庭教育組</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">基礎</td>
+<td bgcolor="ECE987" align="center">廖永靜 </td>
+<td bgcolor="ECE987" align="center">一 </td>
+<td bgcolor="ECE987" align="center">5~6 </td>
+<td bgcolor="ECE987" align="center">行政大樓A402</td>
+<td bgcolor="ECE987" align="center">民雄校區</td>
+<td bgcolor="ECE987" align="center">20</td>
+<td bgcolor="ECE987" align="center">20</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">264</td>
+<td bgcolor="E9D3D1" align="center">0002</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640002&amp;WebPid1=">高等教育統計</a></td>
+<td bgcolor="E9D3D1" align="center">26400008</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">碩士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">家庭教育組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">張再明 </td>
+<td bgcolor="E9D3D1" align="center">二 </td>
+<td bgcolor="E9D3D1" align="center">1~3 </td>
+<td bgcolor="E9D3D1" align="center">行政大樓A401</td>
+<td bgcolor="E9D3D1" align="center">民雄校區</td>
+<td bgcolor="E9D3D1" align="center">20</td>
+<td bgcolor="E9D3D1" align="center">10</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">264</td>
+<td bgcolor="ECE987" align="center">0003</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640003&amp;WebPid1=">親職教育研究</a></td>
+<td bgcolor="ECE987" align="center">26400074</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">碩士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">家庭教育組</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">專業</td>
+<td bgcolor="ECE987" align="center">張再明 </td>
+<td bgcolor="ECE987" align="center">二 </td>
+<td bgcolor="ECE987" align="center">4~F </td>
+<td bgcolor="ECE987" align="center">行政大樓A401</td>
+<td bgcolor="ECE987" align="center">民雄校區</td>
+<td bgcolor="ECE987" align="center">20</td>
+<td bgcolor="ECE987" align="center">10</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">264</td>
+<td bgcolor="E9D3D1" align="center">0004</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640004&amp;WebPid1=">家庭性教育研究</a></td>
+<td bgcolor="E9D3D1" align="center">26400075</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">碩士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">家庭教育組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center">專業</td>
+<td bgcolor="E9D3D1" align="center">王以仁 </td>
+<td bgcolor="E9D3D1" align="center">二 </td>
+<td bgcolor="E9D3D1" align="center">6~7 </td>
+<td bgcolor="E9D3D1" align="center">行政大樓A405</td>
+<td bgcolor="E9D3D1" align="center">民雄校區</td>
+<td bgcolor="E9D3D1" align="center">15</td>
+<td bgcolor="E9D3D1" align="center">9</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">264</td>
+<td bgcolor="ECE987" align="center">0005</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640005&amp;WebPid1=">家庭教育與社會資源</a></td>
+<td bgcolor="ECE987" align="center">26400076</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">碩士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">家庭教育組</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">專業</td>
+<td bgcolor="ECE987" align="center">高淑清 </td>
+<td bgcolor="ECE987" align="center">二 </td>
+<td bgcolor="ECE987" align="center">8~9 </td>
+<td bgcolor="ECE987" align="center">行政大樓A405</td>
+<td bgcolor="ECE987" align="center">民雄校區</td>
+<td bgcolor="ECE987" align="center">20</td>
+<td bgcolor="ECE987" align="center">11</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">264</td>
+<td bgcolor="E9D3D1" align="center">0006</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640006&amp;WebPid1=">質的研究</a></td>
+<td bgcolor="E9D3D1" align="center">26400065</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">碩士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">家庭教育組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center">方法學</td>
+<td bgcolor="E9D3D1" align="center">高淑清 </td>
+<td bgcolor="E9D3D1" align="center">五 </td>
+<td bgcolor="E9D3D1" align="center">2~4 </td>
+<td bgcolor="E9D3D1" align="center">第一棟大樓A302</td>
+<td bgcolor="E9D3D1" align="center">林森校區</td>
+<td bgcolor="E9D3D1" align="center">20</td>
+<td bgcolor="E9D3D1" align="center">14</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">264</td>
+<td bgcolor="ECE987" align="center">0007</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640007&amp;WebPid1=">家庭性教育研究</a></td>
+<td bgcolor="ECE987" align="center">26400075</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">碩士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">家庭教育組</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">專業</td>
+<td bgcolor="ECE987" align="center">王以仁 </td>
+<td bgcolor="ECE987" align="center">二 </td>
+<td bgcolor="ECE987" align="center">6~7 </td>
+<td bgcolor="ECE987" align="center">行政大樓A405</td>
+<td bgcolor="ECE987" align="center">民雄校區</td>
+<td bgcolor="ECE987" align="center">15</td>
+<td bgcolor="ECE987" align="center">5</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">264</td>
+<td bgcolor="E9D3D1" align="center">0008</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640008&amp;WebPid1=">非典型家庭教育研究</a></td>
+<td bgcolor="E9D3D1" align="center">26400082</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">碩士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">家庭教育組</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center">專業</td>
+<td bgcolor="E9D3D1" align="center">吳瓊洳 </td>
+<td bgcolor="E9D3D1" align="center">二 </td>
+<td bgcolor="E9D3D1" align="center">A~B </td>
+<td bgcolor="E9D3D1" align="center">第一棟大樓A302</td>
+<td bgcolor="E9D3D1" align="center">林森校區</td>
+<td bgcolor="E9D3D1" align="center">10</td>
+<td bgcolor="E9D3D1" align="center">4</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">264</td>
+<td bgcolor="ECE987" align="center">0009</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640009&amp;WebPid1=">家庭危機與壓力處理研究</a></td>
+<td bgcolor="ECE987" align="center">26400094</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">碩士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">家庭教育組</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">共同選修</td>
+<td bgcolor="ECE987" align="center">王以仁 </td>
+<td bgcolor="ECE987" align="center">六 </td>
+<td bgcolor="ECE987" align="center">2~3 </td>
+<td bgcolor="ECE987" align="center">第一棟大樓A409</td>
+<td bgcolor="ECE987" align="center">林森校區</td>
+<td bgcolor="ECE987" align="center">15</td>
+<td bgcolor="ECE987" align="center">5</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">264</td>
+<td bgcolor="E9D3D1" align="center">0010</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640010&amp;WebPid1=">組織心理學研究</a></td>
+<td bgcolor="E9D3D1" align="center">26400116</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">碩士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">諮商心理組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center">心理學類</td>
+<td bgcolor="E9D3D1" align="center">楊育儀 </td>
+<td bgcolor="E9D3D1" align="center">一 </td>
+<td bgcolor="E9D3D1" align="center">5~7 </td>
+<td bgcolor="E9D3D1" align="center">行政大樓A401</td>
+<td bgcolor="E9D3D1" align="center">民雄校區</td>
+<td bgcolor="E9D3D1" align="center">25</td>
+<td bgcolor="E9D3D1" align="center">11</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">264</td>
+<td bgcolor="ECE987" align="center">0011</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640011&amp;WebPid1=">系統理論與家庭治療研究</a></td>
+<td bgcolor="ECE987" align="center">26400103</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">碩士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">諮商心理組</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">家庭與社區諮商領域</td>
+<td bgcolor="ECE987" align="center">李鈺華 </td>
+<td bgcolor="ECE987" align="center">一 </td>
+<td bgcolor="ECE987" align="center">5~7 </td>
+<td bgcolor="ECE987" align="center">行政大樓A405</td>
+<td bgcolor="ECE987" align="center">民雄校區</td>
+<td bgcolor="ECE987" align="center">25</td>
+<td bgcolor="ECE987" align="center">15</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">264</td>
+<td bgcolor="E9D3D1" align="center">0012</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640012&amp;WebPid1=">諮商與心理治療技術研究</a></td>
+<td bgcolor="E9D3D1" align="center">26400100</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">碩士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">諮商心理組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center">核心課程</td>
+<td bgcolor="E9D3D1" align="center">張高賓 </td>
+<td bgcolor="E9D3D1" align="center">二 </td>
+<td bgcolor="E9D3D1" align="center">2~4 </td>
+<td bgcolor="E9D3D1" align="center">行政大樓A406</td>
+<td bgcolor="E9D3D1" align="center">民雄校區</td>
+<td bgcolor="E9D3D1" align="center">25</td>
+<td bgcolor="E9D3D1" align="center">26</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">264</td>
+<td bgcolor="ECE987" align="center">0013</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640013&amp;WebPid1=">高等教育統計</a></td>
+<td bgcolor="ECE987" align="center">26400008</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">碩士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">諮商心理組</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">黃財尉 </td>
+<td bgcolor="ECE987" align="center">二 </td>
+<td bgcolor="ECE987" align="center">5~7 </td>
+<td bgcolor="ECE987" align="center">行政大樓A406</td>
+<td bgcolor="ECE987" align="center">民雄校區</td>
+<td bgcolor="ECE987" align="center">25</td>
+<td bgcolor="ECE987" align="center">21</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">264</td>
+<td bgcolor="E9D3D1" align="center">0014</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640014&amp;WebPid1=">團體諮商研究</a></td>
+<td bgcolor="E9D3D1" align="center">26400096</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">碩士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">諮商心理組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">許忠仁 </td>
+<td bgcolor="E9D3D1" align="center">三 </td>
+<td bgcolor="E9D3D1" align="center">2~4 </td>
+<td bgcolor="E9D3D1" align="center">行政大樓A406</td>
+<td bgcolor="E9D3D1" align="center">民雄校區</td>
+<td bgcolor="E9D3D1" align="center">25</td>
+<td bgcolor="E9D3D1" align="center">27</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">264</td>
+<td bgcolor="ECE987" align="center">0015</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640015&amp;WebPid1=">質的研究</a></td>
+<td bgcolor="ECE987" align="center">26400065</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">碩士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">諮商心理組</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">方法學</td>
+<td bgcolor="ECE987" align="center">吳芝儀 </td>
+<td bgcolor="ECE987" align="center">四 </td>
+<td bgcolor="ECE987" align="center">2~4 </td>
+<td bgcolor="ECE987" align="center">行政大樓A405</td>
+<td bgcolor="ECE987" align="center">民雄校區</td>
+<td bgcolor="ECE987" align="center">25</td>
+<td bgcolor="ECE987" align="center">12</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">264</td>
+<td bgcolor="E9D3D1" align="center">0016</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640016&amp;WebPid1=">測驗理論與編製研究</a></td>
+<td bgcolor="E9D3D1" align="center">26400088</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">碩士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">諮商心理組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center">方法學</td>
+<td bgcolor="E9D3D1" align="center">黃財尉 </td>
+<td bgcolor="E9D3D1" align="center">四 </td>
+<td bgcolor="E9D3D1" align="center">5~7 </td>
+<td bgcolor="E9D3D1" align="center">行政大樓A405</td>
+<td bgcolor="E9D3D1" align="center">民雄校區</td>
+<td bgcolor="E9D3D1" align="center">25</td>
+<td bgcolor="E9D3D1" align="center">11</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">264</td>
+<td bgcolor="ECE987" align="center">0018</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640018&amp;WebPid1=">藝術治療研究</a></td>
+<td bgcolor="ECE987" align="center">26400058</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">碩士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">諮商心理組</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">諮商心理類</td>
+<td bgcolor="ECE987" align="center">沈玉培 </td>
+<td bgcolor="ECE987" align="center">一 </td>
+<td bgcolor="ECE987" align="center">9~A </td>
+<td bgcolor="ECE987" align="center">第一棟大樓A409</td>
+<td bgcolor="ECE987" align="center">林森校區</td>
+<td bgcolor="ECE987" align="center">20</td>
+<td bgcolor="ECE987" align="center">17</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">264</td>
+<td bgcolor="E9D3D1" align="center">0019</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640019&amp;WebPid1=">性侵害與家庭暴力諮商研究</a></td>
+<td bgcolor="E9D3D1" align="center">26400038</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">碩士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">諮商心理組</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center">諮商心理類</td>
+<td bgcolor="E9D3D1" align="center">李鈺華 </td>
+<td bgcolor="E9D3D1" align="center">二 </td>
+<td bgcolor="E9D3D1" align="center">3~4 </td>
+<td bgcolor="E9D3D1" align="center">行政大樓A405</td>
+<td bgcolor="E9D3D1" align="center">民雄校區</td>
+<td bgcolor="E9D3D1" align="center">25</td>
+<td bgcolor="E9D3D1" align="center">12</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">264</td>
+<td bgcolor="ECE987" align="center">0023</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640023&amp;WebPid1=">遊戲治療研究</a></td>
+<td bgcolor="ECE987" align="center">26400026</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">碩士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">諮商心理組</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">施玉麗 </td>
+<td bgcolor="ECE987" align="center">六 </td>
+<td bgcolor="ECE987" align="center">3~4 </td>
+<td bgcolor="ECE987" align="center">行政大樓A405</td>
+<td bgcolor="ECE987" align="center">民雄校區</td>
+<td bgcolor="ECE987" align="center">20</td>
+<td bgcolor="ECE987" align="center">11</td>
+<td bgcolor="ECE987" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">264</td>
+<td bgcolor="E9D3D1" align="center">0021</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640021&amp;WebPid1=">諮商心理實習(Ⅱ)</a></td>
+<td bgcolor="E9D3D1" align="center">26400122</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">碩士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">輔諮系碩班</td>
+<td bgcolor="E9D3D1" align="center">諮商心理組</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">李鈺華 </td>
+<td bgcolor="E9D3D1" align="center">一 </td>
+<td bgcolor="E9D3D1" align="center">2~4 </td>
+<td bgcolor="E9D3D1" align="center">行政大樓A405</td>
+<td bgcolor="E9D3D1" align="center">民雄校區</td>
+<td bgcolor="E9D3D1" align="center">15</td>
+<td bgcolor="E9D3D1" align="center">10</td>
+<td bgcolor="E9D3D1" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">264</td>
+<td bgcolor="ECE987" align="center">0022</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10322640022&amp;WebPid1=">諮商心理實習(Ⅱ)</a></td>
+<td bgcolor="ECE987" align="center">26400122</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">碩士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">輔諮系碩班</td>
+<td bgcolor="ECE987" align="center">諮商心理組</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">沈玉培 </td>
+<td bgcolor="ECE987" align="center">一 </td>
+<td bgcolor="ECE987" align="center">5~7 </td>
+<td bgcolor="ECE987" align="center">行政大樓A403</td>
+<td bgcolor="ECE987" align="center">民雄校區</td>
+<td bgcolor="ECE987" align="center">15</td>
+<td bgcolor="ECE987" align="center">8</td>
+<td bgcolor="ECE987" align="center">不開放外系修課</td>
+</tr>
+
+</tbody></table><br />
+
+<p>
+</p><hr /><p></p><table width="99%" cellspacing="0" cellpadding="1" border="0" align="center">
+<tbody><tr><td>各節次起迄時間表（一百零三學年度第二學期）</td></tr>
+</tbody></table>
+
+<table width="99%" cellspacing="0" cellpadding="1" border="1" align="center">
+<tbody><tr><td align="center">節次</td>
+<td align="center">1</td>
+<td align="center">2</td>
+<td align="center">3</td>
+<td align="center">4</td>
+<td align="center">F</td>
+<td align="center">5</td>
+<td align="center">6</td>
+<td align="center">7</td>
+<td align="center">8</td>
+<td align="center">9</td>
+<td align="center">A</td>
+<td align="center">B</td>
+<td align="center">C</td>
+<td align="center">D</td>
+</tr>
+<tr><td align="center">開始</td>
+<td align="center">08:10</td>
+<td align="center">09:10</td>
+<td align="center">10:10</td>
+<td align="center">11:10</td>
+<td align="center">12:10</td>
+<td align="center">13:20</td>
+<td align="center">14:20</td>
+<td align="center">15:20</td>
+<td align="center">16:20</td>
+<td align="center">17:20</td>
+<td align="center">18:30</td>
+<td align="center">19:20</td>
+<td align="center">20:10</td>
+<td align="center">21:00</td>
+</tr>
+<tr><td align="center">結束</td>
+<td align="center">09:00</td>
+<td align="center">10:00</td>
+<td align="center">11:00</td>
+<td align="center">12:00</td>
+<td align="center">13:00</td>
+<td align="center">14:10</td>
+<td align="center">15:10</td>
+<td align="center">16:10</td>
+<td align="center">17:10</td>
+<td align="center">18:10</td>
+<td align="center">19:15</td>
+<td align="center">20:05</td>
+<td align="center">20:55</td>
+<td align="center">21:45</td>
+</tr>
+</tbody></table>
+
+<p><font id="HtmlFooter">
+</font></p><hr /><font id="HtmlFooter">
+<img border="0" onclick="javascript:history.go(-1)" alt="回上一頁" src="/m-goback-old.gif" /></font>
+
+
+<script language="javascript">
+ap_showWaitMessage('waitDiv', 0);
+</script>
+
+
+
+
+</body></html>

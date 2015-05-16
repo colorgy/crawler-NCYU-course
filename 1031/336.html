@@ -1,0 +1,2080 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>校務行政系統：依系所查詢課程</title>
+<link type="text/css" href="/ncyucss.css" rel="stylesheet" />
+<meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible" />
+<meta content="text/html; charset=BIG5" http-equiv="Content-Type" />
+<meta content="0" http-equiv="expires" />
+<meta content="no-cache" http-equiv="pragma" />
+<meta content="no-cache" http-equiv="cache-control" />
+
+</head><body background="/inmtextb.gif" onload="DigitalTime2()"><div style="position: absolute; left: 35%; top: 35%; visibility: hidden;" id="waitDiv">
+<center><table cellpadding="6" bordercolor="#000000" border="2" bgcolor="#9999FF">
+<tbody><tr><td align="center"><br /><p><font size="6" face="標楷體">系統處理中...</font></p><p>
+
+<img border="0" src="await.gif" /></p><p><font size="4" face="標楷體">請稍候...</font></p><p>
+</p></td></tr></tbody></table></center></div>
+
+<script language="JavaScript">
+var DHTML = (document.getElementById || document.all || document.layers);
+
+function ap_getObj(name) {
+  if (document.getElementById) {
+    return document.getElementById(name).style;
+  }
+  else if (document.all) {
+    return document.all[name].style;
+  }
+  else if (document.layers) {
+    return document.layers[name];
+  }
+}
+
+function ap_showWaitMessage(div,flag) {
+  if (!DHTML) return;
+  var x = ap_getObj(div);
+  x.visibility = (flag) ? 'visible':'hidden';
+  if(! document.getElementById) if(document.layers) x.left=280/2;
+  return true;
+}
+
+ap_showWaitMessage('waitDiv', 1);
+</script>
+
+
+
+<script language="JavaScript">
+&lt;!--
+ var entered = new Date()
+ function DigitalTime2()
+ {
+  var now = new Date()
+  var s = Math.floor((now.getTime() - entered.getTime()) / 1000)
+  var m = Math.floor(s / 60)
+  var h = Math.floor(s / 3600)
+  var s = s % 60
+  var m = m % 60
+  var h = h % 24
+  var time = ((h &lt; 10) ? "0" : " ") + h
+  time += ((m &lt; 10) ? ":0" : ":") + m
+  time += ((s &lt; 10) ? ":0" : ":") + s
+  LiveClock2.innerHTML = time
+  setTimeout("DigitalTime2()",1000)
+ }
+//--&gt;
+</script>
+
+
+<font id="HtmlHeader">
+
+
+<br /><h1>校務行政系統：依系所查詢課程</h1>
+<hr />現在學年、學期：<font color="green">一百零三學年度第二學期</font>，選課學年、學期：<font color="blue">一百零三學年度第二學期</font><br />
+(進入本網頁時間：民國104年5月16日 星期六 10:12:30，停留時間：<span id="LiveClock2">00:00:06</span>)<hr />
+
+<p></p><ul>
+
+</ul><table width="75%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tbody><tr></tr>
+</tbody></table>
+</font>
+
+<p>
+</p><table width="99%" cellspacing="0" cellpadding="1" border="0" align="center">
+<tbody><tr><td>
+所搜尋到之可能課程（一百零三學年度第二學期）
+
+</td></tr></tbody></table>
+
+<table width="99%" cellspacing="0" cellpadding="1" border="1" align="center">
+<tbody><tr><td bgcolor="BEEC87" align="center">選課類別</td>
+<td bgcolor="BEEC87" align="center">課程類別</td>
+<td bgcolor="BEEC87" align="center">開課系號</td>
+<td bgcolor="BEEC87" align="center">開課序號</td>
+<td bgcolor="BEEC87" align="center">課程名稱</td>
+<td bgcolor="BEEC87" align="center">永久課號</td>
+<td bgcolor="BEEC87" align="center">開課單位</td>
+<td bgcolor="BEEC87" align="center">上課學制</td>
+<td bgcolor="BEEC87" align="center">上課學院</td>
+<td bgcolor="BEEC87" align="center">上課系所</td>
+<td bgcolor="BEEC87" align="center">上課組別</td>
+<td bgcolor="BEEC87" align="center">適用年級</td>
+<td bgcolor="BEEC87" align="center">上課班別</td>
+<td bgcolor="BEEC87" align="center">課程修別</td>
+<td bgcolor="BEEC87" align="center">學分數</td>
+<td bgcolor="BEEC87" align="center">時數</td>
+<td bgcolor="BEEC87" align="center">學期數</td>
+<td bgcolor="BEEC87" align="center">授課類別</td>
+<td bgcolor="BEEC87" align="center">備註</td>
+<td bgcolor="BEEC87" align="center">授課教師</td>
+<td bgcolor="BEEC87" align="center">上課星期</td>
+<td bgcolor="BEEC87" align="center">上課節次</td>
+<td bgcolor="BEEC87" align="center">上課教室</td>
+<td bgcolor="BEEC87" align="center">校區</td>
+<td bgcolor="BEEC87" align="center">限修人數</td>
+<td bgcolor="BEEC87" align="center">選上人數</td>
+<td bgcolor="BEEC87" align="center">限選條件</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0001</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360001&amp;WebPid1=">有機化學</a></td>
+<td bgcolor="ECE987" align="center">33600015</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">李德彥 </td>
+<td bgcolor="ECE987" align="center">二 </td>
+<td bgcolor="ECE987" align="center">3~4 </td>
+<td bgcolor="ECE987" align="center">綜合教學大樓A32-107</td>
+<td bgcolor="ECE987" align="center">蘭潭校區</td>
+<td bgcolor="ECE987" align="center">50</td>
+<td bgcolor="ECE987" align="center">52</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0002</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360002&amp;WebPid1=">有機化學實驗</a></td>
+<td bgcolor="E9D3D1" align="center">33600016</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">實習</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">李德彥 </td>
+<td bgcolor="E9D3D1" align="center">二 </td>
+<td bgcolor="E9D3D1" align="center">5~7 </td>
+<td bgcolor="E9D3D1" align="center">綜合教學大樓A32-107</td>
+<td bgcolor="E9D3D1" align="center">蘭潭校區</td>
+<td bgcolor="E9D3D1" align="center">50</td>
+<td bgcolor="E9D3D1" align="center">49</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0003</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360003&amp;WebPid1=">畜牧學概論</a></td>
+<td bgcolor="ECE987" align="center">33600091</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">陳秋麟 </td>
+<td bgcolor="ECE987" align="center">四 </td>
+<td bgcolor="ECE987" align="center">3~4 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-202</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">55</td>
+<td bgcolor="ECE987" align="center">42</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0004</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360004&amp;WebPid1=">獸醫生理學</a></td>
+<td bgcolor="E9D3D1" align="center">33600021</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">詹昆衛 林春福 </td>
+<td bgcolor="E9D3D1" align="center">三 </td>
+<td bgcolor="E9D3D1" align="center">7~8 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-202</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">55</td>
+<td bgcolor="E9D3D1" align="center">54</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0005</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360005&amp;WebPid1=">獸醫生理學實習</a></td>
+<td bgcolor="ECE987" align="center">33600022</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">實習</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">詹昆衛 林春福 </td>
+<td bgcolor="ECE987" align="center">四 </td>
+<td bgcolor="ECE987" align="center">7~9 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-312</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">55</td>
+<td bgcolor="ECE987" align="center">53</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0006</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360006&amp;WebPid1=">獸醫解剖學</a></td>
+<td bgcolor="E9D3D1" align="center">33600009</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">張銘煌 詹昆衛 楊瑋誠 林春福 </td>
+<td bgcolor="E9D3D1" align="center">三 </td>
+<td bgcolor="E9D3D1" align="center">3~4 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-202</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">55</td>
+<td bgcolor="E9D3D1" align="center">56</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0007</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360007&amp;WebPid1=">獸醫解剖學實習</a></td>
+<td bgcolor="ECE987" align="center">33600010</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">實習</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">張銘煌 詹昆衛 楊瑋誠 林春福 </td>
+<td bgcolor="ECE987" align="center">五 </td>
+<td bgcolor="ECE987" align="center">1~3 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-202</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">55</td>
+<td bgcolor="ECE987" align="center">56</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0008</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360008&amp;WebPid1=">動物福利學</a></td>
+<td bgcolor="E9D3D1" align="center">33600194</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">蘇耀期 楊瑋誠 </td>
+<td bgcolor="E9D3D1" align="center">三 </td>
+<td bgcolor="E9D3D1" align="center">1~2 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-202</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">50</td>
+<td bgcolor="E9D3D1" align="center">52</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0009</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360009&amp;WebPid1=">胚胎學</a></td>
+<td bgcolor="ECE987" align="center">33600014</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">林春福 </td>
+<td bgcolor="ECE987" align="center">五 </td>
+<td bgcolor="ECE987" align="center">5~6 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-202</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">50</td>
+<td bgcolor="ECE987" align="center">50</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">通識教育課程(含90學年度以前共同必修科目)</td>
+<td bgcolor="E9D3D1" align="center">通識教育必修科目</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0010</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360010&amp;WebPid1=">體育</a></td>
+<td bgcolor="E9D3D1" align="center">C1500009</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">0</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">0</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">林明儒 </td>
+<td bgcolor="E9D3D1" align="center">二 </td>
+<td bgcolor="E9D3D1" align="center">1~2 </td>
+<td bgcolor="E9D3D1" align="center">未設定(蘭潭校區)</td>
+<td bgcolor="E9D3D1" align="center">蘭潭校區</td>
+<td bgcolor="E9D3D1" align="center">50</td>
+<td bgcolor="E9D3D1" align="center">41</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">通識教育課程(含90學年度以前共同必修科目)</td>
+<td bgcolor="ECE987" align="center">通識教育必修科目</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0011</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360011&amp;WebPid1=">服務學習</a></td>
+<td bgcolor="ECE987" align="center">C1500011</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">0</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">詹昆衛 楊瑋誠 </td>
+<td bgcolor="ECE987" align="center">二 三 </td>
+<td bgcolor="ECE987" align="center">F~F F~F </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-202</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">50</td>
+<td bgcolor="ECE987" align="center">40</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0012</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360012&amp;WebPid1=">生物化學</a></td>
+<td bgcolor="E9D3D1" align="center">33600051</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">陳瑞傑 </td>
+<td bgcolor="E9D3D1" align="center">一 </td>
+<td bgcolor="E9D3D1" align="center">3~4 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-201</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">50</td>
+<td bgcolor="E9D3D1" align="center">46</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0013</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360013&amp;WebPid1=">獸醫免疫學</a></td>
+<td bgcolor="ECE987" align="center">33600044</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">楊瑋誠 </td>
+<td bgcolor="ECE987" align="center">二 </td>
+<td bgcolor="ECE987" align="center">1~2 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-201</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">55</td>
+<td bgcolor="ECE987" align="center">47</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0014</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360014&amp;WebPid1=">獸醫免疫學實習</a></td>
+<td bgcolor="E9D3D1" align="center">33600045</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">實習</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">楊瑋誠 </td>
+<td bgcolor="E9D3D1" align="center">二 </td>
+<td bgcolor="E9D3D1" align="center">7~9 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-203</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">55</td>
+<td bgcolor="E9D3D1" align="center">47</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0015</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360015&amp;WebPid1=">獸醫病毒學</a></td>
+<td bgcolor="ECE987" align="center">33600032</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">詹昆衛 楊瑋誠 </td>
+<td bgcolor="ECE987" align="center">一 </td>
+<td bgcolor="ECE987" align="center">5~6 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-201</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">55</td>
+<td bgcolor="ECE987" align="center">47</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0016</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360016&amp;WebPid1=">獸醫病毒學實習</a></td>
+<td bgcolor="E9D3D1" align="center">33600033</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">實習</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">詹昆衛 楊瑋誠 </td>
+<td bgcolor="E9D3D1" align="center">二 </td>
+<td bgcolor="E9D3D1" align="center">A~C </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-203</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">55</td>
+<td bgcolor="E9D3D1" align="center">47</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0017</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360017&amp;WebPid1=">獸醫組織學</a></td>
+<td bgcolor="ECE987" align="center">33600019</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">張銘煌 </td>
+<td bgcolor="ECE987" align="center">四 </td>
+<td bgcolor="ECE987" align="center">1~1 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-201</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">55</td>
+<td bgcolor="ECE987" align="center">52</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0018</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360018&amp;WebPid1=">獸醫組織學實習</a></td>
+<td bgcolor="E9D3D1" align="center">33600020</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">實習</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">張銘煌 </td>
+<td bgcolor="E9D3D1" align="center">四 </td>
+<td bgcolor="E9D3D1" align="center">2~4 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-313</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">55</td>
+<td bgcolor="E9D3D1" align="center">52</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0019</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360019&amp;WebPid1=">營養疾病學</a></td>
+<td bgcolor="ECE987" align="center">33600037</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">余章游 </td>
+<td bgcolor="ECE987" align="center">三 </td>
+<td bgcolor="ECE987" align="center">1~2 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-201</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">50</td>
+<td bgcolor="ECE987" align="center">35</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0020</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360020&amp;WebPid1=">獸醫原蟲學</a></td>
+<td bgcolor="E9D3D1" align="center">33600026</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">蘇耀期 </td>
+<td bgcolor="E9D3D1" align="center">一 </td>
+<td bgcolor="E9D3D1" align="center">7~8 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-201</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">50</td>
+<td bgcolor="E9D3D1" align="center">47</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0021</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360021&amp;WebPid1=">家禽組織學</a></td>
+<td bgcolor="ECE987" align="center">33600036</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">張銘煌 </td>
+<td bgcolor="ECE987" align="center">四 </td>
+<td bgcolor="ECE987" align="center">7~8 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-201</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">50</td>
+<td bgcolor="ECE987" align="center">35</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0023</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360023&amp;WebPid1=">中獸醫學應用</a></td>
+<td bgcolor="E9D3D1" align="center">33600198</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">鄭漢文 </td>
+<td bgcolor="E9D3D1" align="center">六 </td>
+<td bgcolor="E9D3D1" align="center">5~6 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-201</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">50</td>
+<td bgcolor="E9D3D1" align="center">30</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0024</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360024&amp;WebPid1=">獸醫公共衛生學</a></td>
+<td bgcolor="ECE987" align="center">33600082</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">陳秋麟 蘇耀期 </td>
+<td bgcolor="ECE987" align="center">一 </td>
+<td bgcolor="ECE987" align="center">1~1 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-312</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">56</td>
+<td bgcolor="ECE987" align="center">56</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0025</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360025&amp;WebPid1=">獸醫公共衛生學實習</a></td>
+<td bgcolor="E9D3D1" align="center">33600083</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">實習</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">陳秋麟 蘇耀期 </td>
+<td bgcolor="E9D3D1" align="center">一 </td>
+<td bgcolor="E9D3D1" align="center">2~4 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-312</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">56</td>
+<td bgcolor="E9D3D1" align="center">56</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0026</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360026&amp;WebPid1=">獸醫病理學</a></td>
+<td bgcolor="ECE987" align="center">33600041</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">羅登源 </td>
+<td bgcolor="ECE987" align="center">四 </td>
+<td bgcolor="ECE987" align="center">5~6 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-303</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">57</td>
+<td bgcolor="ECE987" align="center">56</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0027</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360027&amp;WebPid1=">獸醫病理學實習</a></td>
+<td bgcolor="E9D3D1" align="center">33600042</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">實習</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">羅登源 </td>
+<td bgcolor="E9D3D1" align="center">三 </td>
+<td bgcolor="E9D3D1" align="center">1~3 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-313</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">56</td>
+<td bgcolor="E9D3D1" align="center">56</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0028</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360028&amp;WebPid1=">獸醫麻醉學</a></td>
+<td bgcolor="ECE987" align="center">33600175</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">吳瑞得 </td>
+<td bgcolor="ECE987" align="center">五 </td>
+<td bgcolor="ECE987" align="center">3~4 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-303</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">55</td>
+<td bgcolor="ECE987" align="center">56</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0029</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360029&amp;WebPid1=">獸醫繁殖障礙與產科學</a></td>
+<td bgcolor="E9D3D1" align="center">33600061</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">余章游 吳瑞得 </td>
+<td bgcolor="E9D3D1" align="center">五 </td>
+<td bgcolor="E9D3D1" align="center">5~6 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-303</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">55</td>
+<td bgcolor="E9D3D1" align="center">56</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0030</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360030&amp;WebPid1=">獸醫臨床病理學</a></td>
+<td bgcolor="ECE987" align="center">33600055</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">周世認 </td>
+<td bgcolor="ECE987" align="center">一 </td>
+<td bgcolor="ECE987" align="center">5~5 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-303</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">57</td>
+<td bgcolor="ECE987" align="center">56</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0031</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360031&amp;WebPid1=">獸醫臨床病理學實習</a></td>
+<td bgcolor="E9D3D1" align="center">33600056</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">實習</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">周世認 </td>
+<td bgcolor="E9D3D1" align="center">一 </td>
+<td bgcolor="E9D3D1" align="center">6~8 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-312</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">57</td>
+<td bgcolor="E9D3D1" align="center">56</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0032</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360032&amp;WebPid1=">獸醫藥理學</a></td>
+<td bgcolor="ECE987" align="center">33600040</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">林春福 郭鴻志 黃漢翔 </td>
+<td bgcolor="ECE987" align="center">二 </td>
+<td bgcolor="ECE987" align="center">1~2 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-303</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">57</td>
+<td bgcolor="ECE987" align="center">57</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0033</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360033&amp;WebPid1=">獸醫藥理學實習</a></td>
+<td bgcolor="E9D3D1" align="center">33600053</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">實習</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">林春福 郭鴻志 黃漢翔 </td>
+<td bgcolor="E9D3D1" align="center">五 </td>
+<td bgcolor="E9D3D1" align="center">7~9 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-303</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">57</td>
+<td bgcolor="E9D3D1" align="center">56</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0034</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360034&amp;WebPid1=">實驗動物疾病學</a></td>
+<td bgcolor="ECE987" align="center">33600084</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">余章游 </td>
+<td bgcolor="ECE987" align="center">四 </td>
+<td bgcolor="ECE987" align="center">3~4 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-303</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">50</td>
+<td bgcolor="ECE987" align="center">27</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0035</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360035&amp;WebPid1=">家禽病理學</a></td>
+<td bgcolor="E9D3D1" align="center">33600168</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">羅登源 </td>
+<td bgcolor="E9D3D1" align="center">四 </td>
+<td bgcolor="E9D3D1" align="center">1~2 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-303</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">50</td>
+<td bgcolor="E9D3D1" align="center">45</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0061</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360061&amp;WebPid1=">豬生產醫學</a></td>
+<td bgcolor="ECE987" align="center">33600203</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">張志成 </td>
+<td bgcolor="ECE987" align="center">二 </td>
+<td bgcolor="ECE987" align="center">7~8 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-303</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">20</td>
+<td bgcolor="ECE987" align="center">27</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0071</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360071&amp;WebPid1=">生物技術</a></td>
+<td bgcolor="E9D3D1" align="center">33600059</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">黃漢翔 </td>
+<td bgcolor="E9D3D1" align="center">二 </td>
+<td bgcolor="E9D3D1" align="center">3~4 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-303</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">50</td>
+<td bgcolor="E9D3D1" align="center">36</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0072</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360072&amp;WebPid1=">獸醫基礎學術英文</a></td>
+<td bgcolor="ECE987" align="center">33600182</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">黃漢翔 </td>
+<td bgcolor="ECE987" align="center">二 </td>
+<td bgcolor="ECE987" align="center">5~6 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-303</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">50</td>
+<td bgcolor="ECE987" align="center">32</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0036</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360036&amp;WebPid1=">大動物疾病學</a></td>
+<td bgcolor="E9D3D1" align="center">33600064</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">4</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">賴治民 </td>
+<td bgcolor="E9D3D1" align="center">五 </td>
+<td bgcolor="E9D3D1" align="center">1~2 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">55</td>
+<td bgcolor="E9D3D1" align="center">54</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0037</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360037&amp;WebPid1=">小動物內科學</a></td>
+<td bgcolor="ECE987" align="center">33600062</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">4</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">詹昆衛 鄭智嘉 </td>
+<td bgcolor="ECE987" align="center">五 </td>
+<td bgcolor="ECE987" align="center">5~6 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">56</td>
+<td bgcolor="ECE987" align="center">53</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0038</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360038&amp;WebPid1=">小動物外科學及手術</a></td>
+<td bgcolor="E9D3D1" align="center">33600140</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">4</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">實習</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">吳瑞得 涂啟文 </td>
+<td bgcolor="E9D3D1" align="center">四 </td>
+<td bgcolor="E9D3D1" align="center">7~9 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-208</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">50</td>
+<td bgcolor="E9D3D1" align="center">52</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0039</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360039&amp;WebPid1=">水產動物疾病學</a></td>
+<td bgcolor="ECE987" align="center">33600066</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">4</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">楊瑋誠 </td>
+<td bgcolor="ECE987" align="center">二 </td>
+<td bgcolor="ECE987" align="center">5~6 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">50</td>
+<td bgcolor="ECE987" align="center">53</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0040</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360040&amp;WebPid1=">屍體解剖</a></td>
+<td bgcolor="E9D3D1" align="center">33600176</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">4</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">實習</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">郭鴻志 </td>
+<td bgcolor="E9D3D1" align="center">二 </td>
+<td bgcolor="E9D3D1" align="center">7~9 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-111</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">55</td>
+<td bgcolor="E9D3D1" align="center">55</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0041</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360041&amp;WebPid1=">禽病學</a></td>
+<td bgcolor="ECE987" align="center">33600065</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">4</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">陳秋麟 余章游 </td>
+<td bgcolor="ECE987" align="center">一 </td>
+<td bgcolor="ECE987" align="center">7~8 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">55</td>
+<td bgcolor="ECE987" align="center">53</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0042</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360042&amp;WebPid1=">豬病學</a></td>
+<td bgcolor="E9D3D1" align="center">33600063</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">4</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">張志成 </td>
+<td bgcolor="E9D3D1" align="center">一 </td>
+<td bgcolor="E9D3D1" align="center">3~4 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">55</td>
+<td bgcolor="E9D3D1" align="center">53</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0043</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360043&amp;WebPid1=">獸醫外科學</a></td>
+<td bgcolor="ECE987" align="center">33600108</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">4</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">吳瑞得 涂啟文 </td>
+<td bgcolor="ECE987" align="center">四 </td>
+<td bgcolor="ECE987" align="center">5~6 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">55</td>
+<td bgcolor="ECE987" align="center">52</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0044</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360044&amp;WebPid1=">獸醫法規與倫理</a></td>
+<td bgcolor="E9D3D1" align="center">33600096</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">4</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">黃國青 </td>
+<td bgcolor="E9D3D1" align="center">六 </td>
+<td bgcolor="E9D3D1" align="center">1~1 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">55</td>
+<td bgcolor="E9D3D1" align="center">52</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0045</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360045&amp;WebPid1=">獸醫流行病學</a></td>
+<td bgcolor="ECE987" align="center">33600094</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">4</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">陳秋麟 賴治民 </td>
+<td bgcolor="ECE987" align="center">三 </td>
+<td bgcolor="ECE987" align="center">3~4 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">55</td>
+<td bgcolor="ECE987" align="center">52</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0046</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360046&amp;WebPid1=">小動物超音波診斷學</a></td>
+<td bgcolor="E9D3D1" align="center">33600155</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">4</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">鄭智嘉 </td>
+<td bgcolor="E9D3D1" align="center">一 </td>
+<td bgcolor="E9D3D1" align="center">5~6 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">50</td>
+<td bgcolor="E9D3D1" align="center">44</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0048</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360048&amp;WebPid1=">獸醫化學療法</a></td>
+<td bgcolor="ECE987" align="center">33600086</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">4</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">林春福 郭鴻志 </td>
+<td bgcolor="ECE987" align="center">三 </td>
+<td bgcolor="ECE987" align="center">1~2 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">50</td>
+<td bgcolor="ECE987" align="center">29</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0050</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360050&amp;WebPid1=">小反芻動物疾病學</a></td>
+<td bgcolor="E9D3D1" align="center">33600127</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">4</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">賴治民 </td>
+<td bgcolor="E9D3D1" align="center">三 </td>
+<td bgcolor="E9D3D1" align="center">7~8 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">55</td>
+<td bgcolor="E9D3D1" align="center">12</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0051</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360051&amp;WebPid1=">臨床解剖學</a></td>
+<td bgcolor="ECE987" align="center">33600202</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">4</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">簡基憲 </td>
+<td bgcolor="ECE987" align="center">六 </td>
+<td bgcolor="ECE987" align="center">3~4 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">50</td>
+<td bgcolor="ECE987" align="center">12</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0052</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360052&amp;WebPid1=">小動物急診醫學</a></td>
+<td bgcolor="E9D3D1" align="center">33600114</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">4</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">詹昆衛 鄭智嘉 </td>
+<td bgcolor="E9D3D1" align="center">二 </td>
+<td bgcolor="E9D3D1" align="center">3~4 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">50</td>
+<td bgcolor="E9D3D1" align="center">39</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0053</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360053&amp;WebPid1=">獸醫臨床實証醫學</a></td>
+<td bgcolor="ECE987" align="center">33600165</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">4</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">賴治民 </td>
+<td bgcolor="ECE987" align="center">五 </td>
+<td bgcolor="ECE987" align="center">3~4 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">50</td>
+<td bgcolor="ECE987" align="center">7</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0062</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360062&amp;WebPid1=">外科病理學</a></td>
+<td bgcolor="E9D3D1" align="center">33600113</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">4</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">羅登源 </td>
+<td bgcolor="E9D3D1" align="center">三 </td>
+<td bgcolor="E9D3D1" align="center">A~B </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">50</td>
+<td bgcolor="E9D3D1" align="center">13</td>
+<td bgcolor="E9D3D1" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0070</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360070&amp;WebPid1=">小動物物理治療學</a></td>
+<td bgcolor="ECE987" align="center">33600204</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">4</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">黃漢翔 </td>
+<td bgcolor="ECE987" align="center">四 </td>
+<td bgcolor="ECE987" align="center">3~4 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-302</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">50</td>
+<td bgcolor="ECE987" align="center">18</td>
+<td bgcolor="ECE987" align="center">開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0055</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360055&amp;WebPid1=">診療實習一</a></td>
+<td bgcolor="E9D3D1" align="center">33600098</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">5</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">實習</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">張銘煌 羅登源 郭鴻志 </td>
+<td bgcolor="E9D3D1" align="center">二 二 </td>
+<td bgcolor="E9D3D1" align="center">3~4 F~F </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-103</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">55</td>
+<td bgcolor="E9D3D1" align="center">48</td>
+<td bgcolor="E9D3D1" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0056</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360056&amp;WebPid1=">診療實習二</a></td>
+<td bgcolor="ECE987" align="center">33600099</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">5</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">實習</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">陳秋麟 蘇耀期 賴治民 </td>
+<td bgcolor="ECE987" align="center">五 </td>
+<td bgcolor="ECE987" align="center">5~7 </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-103</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">55</td>
+<td bgcolor="ECE987" align="center">48</td>
+<td bgcolor="ECE987" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0057</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360057&amp;WebPid1=">診療實習三</a></td>
+<td bgcolor="E9D3D1" align="center">33600100</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">5</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">實習</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">周世認 余章游 黃漢翔 </td>
+<td bgcolor="E9D3D1" align="center">四 </td>
+<td bgcolor="E9D3D1" align="center">6~8 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-103</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">55</td>
+<td bgcolor="E9D3D1" align="center">48</td>
+<td bgcolor="E9D3D1" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0058</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360058&amp;WebPid1=">診療實習四</a></td>
+<td bgcolor="ECE987" align="center">33600101</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">5</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">實習</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">吳瑞得 林春福 </td>
+<td bgcolor="ECE987" align="center">四 四 </td>
+<td bgcolor="ECE987" align="center">3~4 F~F </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-103</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">55</td>
+<td bgcolor="ECE987" align="center">48</td>
+<td bgcolor="ECE987" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">336</td>
+<td bgcolor="E9D3D1" align="center">0059</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360059&amp;WebPid1=">診療實習五</a></td>
+<td bgcolor="E9D3D1" align="center">33600102</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">大學部</td>
+<td bgcolor="E9D3D1" align="center">農學院</td>
+<td bgcolor="E9D3D1" align="center">獸醫系</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">5</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">實習</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">張志成 詹昆衛 楊瑋誠 </td>
+<td bgcolor="E9D3D1" align="center">一 </td>
+<td bgcolor="E9D3D1" align="center">7~9 </td>
+<td bgcolor="E9D3D1" align="center">雲嘉南動物疾病診斷中心D04-103</td>
+<td bgcolor="E9D3D1" align="center">新民校區</td>
+<td bgcolor="E9D3D1" align="center">55</td>
+<td bgcolor="E9D3D1" align="center">48</td>
+<td bgcolor="E9D3D1" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">336</td>
+<td bgcolor="ECE987" align="center">0060</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10323360060&amp;WebPid1=">臨床討論</a></td>
+<td bgcolor="ECE987" align="center">33600093</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">大學部</td>
+<td bgcolor="ECE987" align="center">農學院</td>
+<td bgcolor="ECE987" align="center">獸醫系</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">5</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">張銘煌 陳秋麟 張志成 吳瑞得 </td>
+<td bgcolor="ECE987" align="center">三 三 </td>
+<td bgcolor="ECE987" align="center">1~2 F~F </td>
+<td bgcolor="ECE987" align="center">雲嘉南動物疾病診斷中心D04-103</td>
+<td bgcolor="ECE987" align="center">新民校區</td>
+<td bgcolor="ECE987" align="center">55</td>
+<td bgcolor="ECE987" align="center">49</td>
+<td bgcolor="ECE987" align="center">不開放外系修課</td>
+</tr>
+
+</tbody></table><br />
+
+<p>
+</p><hr /><p></p><table width="99%" cellspacing="0" cellpadding="1" border="0" align="center">
+<tbody><tr><td>各節次起迄時間表（一百零三學年度第二學期）</td></tr>
+</tbody></table>
+
+<table width="99%" cellspacing="0" cellpadding="1" border="1" align="center">
+<tbody><tr><td align="center">節次</td>
+<td align="center">1</td>
+<td align="center">2</td>
+<td align="center">3</td>
+<td align="center">4</td>
+<td align="center">F</td>
+<td align="center">5</td>
+<td align="center">6</td>
+<td align="center">7</td>
+<td align="center">8</td>
+<td align="center">9</td>
+<td align="center">A</td>
+<td align="center">B</td>
+<td align="center">C</td>
+<td align="center">D</td>
+</tr>
+<tr><td align="center">開始</td>
+<td align="center">08:10</td>
+<td align="center">09:10</td>
+<td align="center">10:10</td>
+<td align="center">11:10</td>
+<td align="center">12:10</td>
+<td align="center">13:20</td>
+<td align="center">14:20</td>
+<td align="center">15:20</td>
+<td align="center">16:20</td>
+<td align="center">17:20</td>
+<td align="center">18:30</td>
+<td align="center">19:20</td>
+<td align="center">20:10</td>
+<td align="center">21:00</td>
+</tr>
+<tr><td align="center">結束</td>
+<td align="center">09:00</td>
+<td align="center">10:00</td>
+<td align="center">11:00</td>
+<td align="center">12:00</td>
+<td align="center">13:00</td>
+<td align="center">14:10</td>
+<td align="center">15:10</td>
+<td align="center">16:10</td>
+<td align="center">17:10</td>
+<td align="center">18:10</td>
+<td align="center">19:15</td>
+<td align="center">20:05</td>
+<td align="center">20:55</td>
+<td align="center">21:45</td>
+</tr>
+</tbody></table>
+
+<p><font id="HtmlFooter">
+</font></p><hr /><font id="HtmlFooter">
+<img border="0" onclick="javascript:history.go(-1)" alt="回上一頁" src="/m-goback-old.gif" /></font>
+
+
+<script language="javascript">
+ap_showWaitMessage('waitDiv', 0);
+</script>
+
+
+
+
+</body></html>

@@ -1,0 +1,902 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>校務行政系統：依系所查詢課程</title>
+<link type="text/css" href="/ncyucss.css" rel="stylesheet" />
+<meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible" />
+<meta content="text/html; charset=BIG5" http-equiv="Content-Type" />
+<meta content="0" http-equiv="expires" />
+<meta content="no-cache" http-equiv="pragma" />
+<meta content="no-cache" http-equiv="cache-control" />
+
+</head><body background="/inmtextb.gif" onload="DigitalTime2()"><div style="position: absolute; left: 35%; top: 35%; visibility: hidden;" id="waitDiv">
+<center><table cellpadding="6" bordercolor="#000000" border="2" bgcolor="#9999FF">
+<tbody><tr><td align="center"><br /><p><font size="6" face="標楷體">系統處理中...</font></p><p>
+
+<img border="0" src="await.gif" /></p><p><font size="4" face="標楷體">請稍候...</font></p><p>
+</p></td></tr></tbody></table></center></div>
+
+<script language="JavaScript">
+var DHTML = (document.getElementById || document.all || document.layers);
+
+function ap_getObj(name) {
+  if (document.getElementById) {
+    return document.getElementById(name).style;
+  }
+  else if (document.all) {
+    return document.all[name].style;
+  }
+  else if (document.layers) {
+    return document.layers[name];
+  }
+}
+
+function ap_showWaitMessage(div,flag) {
+  if (!DHTML) return;
+  var x = ap_getObj(div);
+  x.visibility = (flag) ? 'visible':'hidden';
+  if(! document.getElementById) if(document.layers) x.left=280/2;
+  return true;
+}
+
+ap_showWaitMessage('waitDiv', 1);
+</script>
+
+
+
+<script language="JavaScript">
+&lt;!--
+ var entered = new Date()
+ function DigitalTime2()
+ {
+  var now = new Date()
+  var s = Math.floor((now.getTime() - entered.getTime()) / 1000)
+  var m = Math.floor(s / 60)
+  var h = Math.floor(s / 3600)
+  var s = s % 60
+  var m = m % 60
+  var h = h % 24
+  var time = ((h &lt; 10) ? "0" : " ") + h
+  time += ((m &lt; 10) ? ":0" : ":") + m
+  time += ((s &lt; 10) ? ":0" : ":") + s
+  LiveClock2.innerHTML = time
+  setTimeout("DigitalTime2()",1000)
+ }
+//--&gt;
+</script>
+
+
+<font id="HtmlHeader">
+
+
+<br /><h1>校務行政系統：依系所查詢課程</h1>
+<hr />現在學年、學期：<font color="green">一百零三學年度第二學期</font>，選課學年、學期：<font color="blue">一百零三學年度第二學期</font><br />
+(進入本網頁時間：民國104年5月16日 星期六 10:16:09，停留時間：<span id="LiveClock2">00:00:02</span>)<hr />
+
+<p></p><ul>
+
+</ul><table width="75%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tbody><tr></tr>
+</tbody></table>
+</font>
+
+<p>
+</p><table width="99%" cellspacing="0" cellpadding="1" border="0" align="center">
+<tbody><tr><td>
+所搜尋到之可能課程（一百零三學年度第二學期）
+
+</td></tr></tbody></table>
+
+<table width="99%" cellspacing="0" cellpadding="1" border="1" align="center">
+<tbody><tr><td bgcolor="BEEC87" align="center">選課類別</td>
+<td bgcolor="BEEC87" align="center">課程類別</td>
+<td bgcolor="BEEC87" align="center">開課系號</td>
+<td bgcolor="BEEC87" align="center">開課序號</td>
+<td bgcolor="BEEC87" align="center">課程名稱</td>
+<td bgcolor="BEEC87" align="center">永久課號</td>
+<td bgcolor="BEEC87" align="center">開課單位</td>
+<td bgcolor="BEEC87" align="center">上課學制</td>
+<td bgcolor="BEEC87" align="center">上課學院</td>
+<td bgcolor="BEEC87" align="center">上課系所</td>
+<td bgcolor="BEEC87" align="center">上課組別</td>
+<td bgcolor="BEEC87" align="center">適用年級</td>
+<td bgcolor="BEEC87" align="center">上課班別</td>
+<td bgcolor="BEEC87" align="center">課程修別</td>
+<td bgcolor="BEEC87" align="center">學分數</td>
+<td bgcolor="BEEC87" align="center">時數</td>
+<td bgcolor="BEEC87" align="center">學期數</td>
+<td bgcolor="BEEC87" align="center">授課類別</td>
+<td bgcolor="BEEC87" align="center">備註</td>
+<td bgcolor="BEEC87" align="center">授課教師</td>
+<td bgcolor="BEEC87" align="center">上課星期</td>
+<td bgcolor="BEEC87" align="center">上課節次</td>
+<td bgcolor="BEEC87" align="center">上課教室</td>
+<td bgcolor="BEEC87" align="center">校區</td>
+<td bgcolor="BEEC87" align="center">限修人數</td>
+<td bgcolor="BEEC87" align="center">選上人數</td>
+<td bgcolor="BEEC87" align="center">限選條件</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">161</td>
+<td bgcolor="ECE987" align="center">0009</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610009&amp;WebPid1=">教育社會學專題研究</a></td>
+<td bgcolor="ECE987" align="center">16100003</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">博士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">共同教育基礎科目,四科選一科(英語授課)</td>
+<td bgcolor="ECE987" align="center">姜得勝 </td>
+<td bgcolor="ECE987" align="center">四 </td>
+<td bgcolor="ECE987" align="center">1~3 </td>
+<td bgcolor="ECE987" align="center">教育館B03-208</td>
+<td bgcolor="ECE987" align="center">民雄校區</td>
+<td bgcolor="ECE987" align="center">15</td>
+<td bgcolor="ECE987" align="center">4</td>
+<td bgcolor="ECE987" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">161</td>
+<td bgcolor="E9D3D1" align="center">0025</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610025&amp;WebPid1=">質的專題研究</a></td>
+<td bgcolor="E9D3D1" align="center">16100008</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">博士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center">共同教育研究工具與方法科目,四科選一科(英語授課)</td>
+<td bgcolor="E9D3D1" align="center">陳美瑩 </td>
+<td bgcolor="E9D3D1" align="center">四 </td>
+<td bgcolor="E9D3D1" align="center">5~6 </td>
+<td bgcolor="E9D3D1" align="center">初教館B204</td>
+<td bgcolor="E9D3D1" align="center">民雄校區</td>
+<td bgcolor="E9D3D1" align="center">15</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">161</td>
+<td bgcolor="ECE987" align="center">0011</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610011&amp;WebPid1=">多變項分析</a></td>
+<td bgcolor="ECE987" align="center">16100015</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">博士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">教育理論組,教育研究工具與方法領域</td>
+<td bgcolor="ECE987" align="center">黃芳銘 </td>
+<td bgcolor="ECE987" align="center">四 四 </td>
+<td bgcolor="ECE987" align="center">4~4 5~6 </td>
+<td bgcolor="ECE987" align="center">教育館B03-207</td>
+<td bgcolor="ECE987" align="center">民雄校區</td>
+<td bgcolor="ECE987" align="center">12</td>
+<td bgcolor="ECE987" align="center">6</td>
+<td bgcolor="ECE987" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">161</td>
+<td bgcolor="E9D3D1" align="center">0012</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610012&amp;WebPid1=">統計電腦套裝軟體應用</a></td>
+<td bgcolor="E9D3D1" align="center">16100016</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">博士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center">教育理論組,教育研究工具與方法領域</td>
+<td bgcolor="E9D3D1" align="center">李茂能 </td>
+<td bgcolor="E9D3D1" align="center">四 </td>
+<td bgcolor="E9D3D1" align="center">A~C </td>
+<td bgcolor="E9D3D1" align="center">第一棟大樓A303</td>
+<td bgcolor="E9D3D1" align="center">林森校區</td>
+<td bgcolor="E9D3D1" align="center">12</td>
+<td bgcolor="E9D3D1" align="center">9</td>
+<td bgcolor="E9D3D1" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">161</td>
+<td bgcolor="ECE987" align="center">0001</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610001&amp;WebPid1=">獨立研究（II）</a></td>
+<td bgcolor="ECE987" align="center">16100011</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">博士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">五1~2</td>
+<td bgcolor="ECE987" align="center">姜得勝 楊國賜 </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">限本學院學生修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">161</td>
+<td bgcolor="E9D3D1" align="center">0003</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610003&amp;WebPid1=">獨立研究（II）</a></td>
+<td bgcolor="E9D3D1" align="center">16100011</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">博士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">黃芳銘 </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">限本學院學生修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">161</td>
+<td bgcolor="ECE987" align="center">0005</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610005&amp;WebPid1=">獨立研究（II）</a></td>
+<td bgcolor="ECE987" align="center">16100011</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">博士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">三7-8</td>
+<td bgcolor="ECE987" align="center">王以仁 </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">限本學院學生修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">161</td>
+<td bgcolor="E9D3D1" align="center">0006</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610006&amp;WebPid1=">獨立研究（II）</a></td>
+<td bgcolor="E9D3D1" align="center">16100011</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">博士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">楊淑朱 </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">限本學院學生修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">161</td>
+<td bgcolor="ECE987" align="center">0007</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610007&amp;WebPid1=">獨立研究（II）</a></td>
+<td bgcolor="ECE987" align="center">16100011</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">博士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">吳厪椒 </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">限本學院學生修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">161</td>
+<td bgcolor="E9D3D1" align="center">0008</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610008&amp;WebPid1=">獨立研究（II）</a></td>
+<td bgcolor="E9D3D1" align="center">16100011</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">博士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">林淑玲 李茂能 </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">限本學院學生修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">161</td>
+<td bgcolor="ECE987" align="center">0010</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610010&amp;WebPid1=">獨立研究（II）</a></td>
+<td bgcolor="ECE987" align="center">16100011</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">博士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">林明煌 </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">限本學院學生修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業必修課程</td>
+<td bgcolor="E9D3D1" align="center">161</td>
+<td bgcolor="E9D3D1" align="center">0024</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610024&amp;WebPid1=">獨立研究（II）</a></td>
+<td bgcolor="E9D3D1" align="center">16100011</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">博士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">不分組</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">必修</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">洪如玉 </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">限本學院學生修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業必修課程</td>
+<td bgcolor="ECE987" align="center">161</td>
+<td bgcolor="ECE987" align="center">0026</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610026&amp;WebPid1=">獨立研究（II）</a></td>
+<td bgcolor="ECE987" align="center">16100011</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">博士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">不分組</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">必修</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">陳聖謨 </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">限本學院學生修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">161</td>
+<td bgcolor="E9D3D1" align="center">0013</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610013&amp;WebPid1=">文化與教育專題研究</a></td>
+<td bgcolor="E9D3D1" align="center">16100176</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">博士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">教育理論組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center">教育理論組,教育社會學與文化領域(英語授課)</td>
+<td bgcolor="E9D3D1" align="center">洪如玉 </td>
+<td bgcolor="E9D3D1" align="center">四 四 </td>
+<td bgcolor="E9D3D1" align="center">F~F 5~6 </td>
+<td bgcolor="E9D3D1" align="center">教育館B03-208</td>
+<td bgcolor="E9D3D1" align="center">民雄校區</td>
+<td bgcolor="E9D3D1" align="center">12</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">161</td>
+<td bgcolor="ECE987" align="center">0014</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610014&amp;WebPid1=">批判思考與教育專題研究</a></td>
+<td bgcolor="ECE987" align="center">16100198</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">博士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">教育理論組</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">教育理論組,教育哲史領域</td>
+<td bgcolor="ECE987" align="center">王清思 </td>
+<td bgcolor="ECE987" align="center">四 </td>
+<td bgcolor="ECE987" align="center">1~3 </td>
+<td bgcolor="ECE987" align="center">教育館B03-203</td>
+<td bgcolor="ECE987" align="center">民雄校區</td>
+<td bgcolor="ECE987" align="center">12</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">161</td>
+<td bgcolor="E9D3D1" align="center">0015</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610015&amp;WebPid1=">課程理論與實務專題研究</a></td>
+<td bgcolor="E9D3D1" align="center">16100158</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">博士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">課程與教學組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center">課程與教學組,一般領域</td>
+<td bgcolor="E9D3D1" align="center">黃琡惠 </td>
+<td bgcolor="E9D3D1" align="center">四 四 </td>
+<td bgcolor="E9D3D1" align="center">4~4 5~6 </td>
+<td bgcolor="E9D3D1" align="center">教育館B03-203</td>
+<td bgcolor="E9D3D1" align="center">民雄校區</td>
+<td bgcolor="E9D3D1" align="center">12</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">161</td>
+<td bgcolor="ECE987" align="center">0020</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610020&amp;WebPid1=">幼兒文學專題研究</a></td>
+<td bgcolor="ECE987" align="center">16100054</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">博士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">課程與教學組</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">課程與教學組,幼教領域</td>
+<td bgcolor="ECE987" align="center">何祥如 葉郁菁 </td>
+<td bgcolor="ECE987" align="center">四 四 </td>
+<td bgcolor="ECE987" align="center">F~F 5~6 </td>
+<td bgcolor="ECE987" align="center">教育館B03-205</td>
+<td bgcolor="ECE987" align="center">民雄校區</td>
+<td bgcolor="ECE987" align="center">12</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">161</td>
+<td bgcolor="E9D3D1" align="center">0023</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610023&amp;WebPid1=">學校家庭教育專題研究</a></td>
+<td bgcolor="E9D3D1" align="center">16100062</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">博士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">課程與教學組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center">上課教室在B409；課程與教學組,家教領域</td>
+<td bgcolor="E9D3D1" align="center">高淑清 </td>
+<td bgcolor="E9D3D1" align="center">四 四 </td>
+<td bgcolor="E9D3D1" align="center">4~4 5~6 </td>
+<td bgcolor="E9D3D1" align="center">未設定(民雄校區)</td>
+<td bgcolor="E9D3D1" align="center">民雄校區</td>
+<td bgcolor="E9D3D1" align="center">12</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">161</td>
+<td bgcolor="ECE987" align="center">0018</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610018&amp;WebPid1=">課程經營專題研究</a></td>
+<td bgcolor="ECE987" align="center">16100041</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">博士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">課程與教學組</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">課程與教學組,一般領域</td>
+<td bgcolor="ECE987" align="center">陳聖謨 </td>
+<td bgcolor="ECE987" align="center">四 </td>
+<td bgcolor="ECE987" align="center">1~3 </td>
+<td bgcolor="ECE987" align="center">初教館B205</td>
+<td bgcolor="ECE987" align="center">民雄校區</td>
+<td bgcolor="ECE987" align="center">12</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">161</td>
+<td bgcolor="E9D3D1" align="center">0021</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610021&amp;WebPid1=">幼兒學習與評量專題研究</a></td>
+<td bgcolor="E9D3D1" align="center">16100120</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">博士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">課程與教學組</td>
+<td bgcolor="E9D3D1" align="center">2</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center">課程與教學組,幼教領域</td>
+<td bgcolor="E9D3D1" align="center">簡美宜 楊淑朱 </td>
+<td bgcolor="E9D3D1" align="center">四 </td>
+<td bgcolor="E9D3D1" align="center">1~3 </td>
+<td bgcolor="E9D3D1" align="center">教育館B03-205</td>
+<td bgcolor="E9D3D1" align="center">民雄校區</td>
+<td bgcolor="E9D3D1" align="center">12</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">161</td>
+<td bgcolor="ECE987" align="center">0022</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610022&amp;WebPid1=">家庭教育課程理論與實務專題研究</a></td>
+<td bgcolor="ECE987" align="center">16100058</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">博士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">課程與教學組</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center">課程與教學組,幼教領域</td>
+<td bgcolor="ECE987" align="center">吳瓊洳 </td>
+<td bgcolor="ECE987" align="center">四 四 </td>
+<td bgcolor="ECE987" align="center">9~9 A~B </td>
+<td bgcolor="ECE987" align="center">第一棟大樓A302</td>
+<td bgcolor="ECE987" align="center">林森校區</td>
+<td bgcolor="ECE987" align="center">12</td>
+<td bgcolor="ECE987" align="center">4</td>
+<td bgcolor="ECE987" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="E9D3D1" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="E9D3D1" align="center">專業選修課程</td>
+<td bgcolor="E9D3D1" align="center">161</td>
+<td bgcolor="E9D3D1" align="center">0017</td>
+<td bgcolor="E9D3D1" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610017&amp;WebPid1=">教育行政領導與溝通專題研究</a></td>
+<td bgcolor="E9D3D1" align="center">16100066</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">博士班</td>
+<td bgcolor="E9D3D1" align="center">師範學院</td>
+<td bgcolor="E9D3D1" align="center">教育系博班</td>
+<td bgcolor="E9D3D1" align="center">教育行政與文教事業經營組</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">甲班</td>
+<td bgcolor="E9D3D1" align="center">選修</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">1</td>
+<td bgcolor="E9D3D1" align="center">正課</td>
+<td bgcolor="E9D3D1" align="center"> </td>
+<td bgcolor="E9D3D1" align="center">吳煥烘 </td>
+<td bgcolor="E9D3D1" align="center">四 四 </td>
+<td bgcolor="E9D3D1" align="center">4~4 5~6 </td>
+<td bgcolor="E9D3D1" align="center">教育館B03-204</td>
+<td bgcolor="E9D3D1" align="center">民雄校區</td>
+<td bgcolor="E9D3D1" align="center">12</td>
+<td bgcolor="E9D3D1" align="center">3</td>
+<td bgcolor="E9D3D1" align="center">不開放外系修課</td>
+</tr>
+
+<tr>
+
+<td bgcolor="ECE987" align="center">一般專業課程(含專業必修及專業選修課程)</td>
+<td bgcolor="ECE987" align="center">專業選修課程</td>
+<td bgcolor="ECE987" align="center">161</td>
+<td bgcolor="ECE987" align="center">0019</td>
+<td bgcolor="ECE987" align="center"><a title="按此可連結至教學大綱網頁" target="_blank" href="/pub_tagoutline.aspx?tagid=10321610019&amp;WebPid1=">比較教育行政制度專題研究</a></td>
+<td bgcolor="ECE987" align="center">16100138</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">博士班</td>
+<td bgcolor="ECE987" align="center">師範學院</td>
+<td bgcolor="ECE987" align="center">教育系博班</td>
+<td bgcolor="ECE987" align="center">教育行政與文教事業經營組</td>
+<td bgcolor="ECE987" align="center">2</td>
+<td bgcolor="ECE987" align="center">甲班</td>
+<td bgcolor="ECE987" align="center">選修</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">3</td>
+<td bgcolor="ECE987" align="center">1</td>
+<td bgcolor="ECE987" align="center">正課</td>
+<td bgcolor="ECE987" align="center"> </td>
+<td bgcolor="ECE987" align="center">丁志權 </td>
+<td bgcolor="ECE987" align="center">四 </td>
+<td bgcolor="ECE987" align="center">1~3 </td>
+<td bgcolor="ECE987" align="center">教育館B03-209</td>
+<td bgcolor="ECE987" align="center">民雄校區</td>
+<td bgcolor="ECE987" align="center">12</td>
+<td bgcolor="ECE987" align="center">5</td>
+<td bgcolor="ECE987" align="center">不開放外系修課</td>
+</tr>
+
+</tbody></table><br />
+
+<p>
+</p><hr /><p></p><table width="99%" cellspacing="0" cellpadding="1" border="0" align="center">
+<tbody><tr><td>各節次起迄時間表（一百零三學年度第二學期）</td></tr>
+</tbody></table>
+
+<table width="99%" cellspacing="0" cellpadding="1" border="1" align="center">
+<tbody><tr><td align="center">節次</td>
+<td align="center">1</td>
+<td align="center">2</td>
+<td align="center">3</td>
+<td align="center">4</td>
+<td align="center">F</td>
+<td align="center">5</td>
+<td align="center">6</td>
+<td align="center">7</td>
+<td align="center">8</td>
+<td align="center">9</td>
+<td align="center">A</td>
+<td align="center">B</td>
+<td align="center">C</td>
+<td align="center">D</td>
+</tr>
+<tr><td align="center">開始</td>
+<td align="center">08:10</td>
+<td align="center">09:10</td>
+<td align="center">10:10</td>
+<td align="center">11:10</td>
+<td align="center">12:10</td>
+<td align="center">13:20</td>
+<td align="center">14:20</td>
+<td align="center">15:20</td>
+<td align="center">16:20</td>
+<td align="center">17:20</td>
+<td align="center">18:30</td>
+<td align="center">19:20</td>
+<td align="center">20:10</td>
+<td align="center">21:00</td>
+</tr>
+<tr><td align="center">結束</td>
+<td align="center">09:00</td>
+<td align="center">10:00</td>
+<td align="center">11:00</td>
+<td align="center">12:00</td>
+<td align="center">13:00</td>
+<td align="center">14:10</td>
+<td align="center">15:10</td>
+<td align="center">16:10</td>
+<td align="center">17:10</td>
+<td align="center">18:10</td>
+<td align="center">19:15</td>
+<td align="center">20:05</td>
+<td align="center">20:55</td>
+<td align="center">21:45</td>
+</tr>
+</tbody></table>
+
+<p><font id="HtmlFooter">
+</font></p><hr /><font id="HtmlFooter">
+<img border="0" onclick="javascript:history.go(-1)" alt="回上一頁" src="/m-goback-old.gif" /></font>
+
+
+<script language="javascript">
+ap_showWaitMessage('waitDiv', 0);
+</script>
+
+
+
+
+</body></html>
